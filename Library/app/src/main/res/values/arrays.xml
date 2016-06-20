@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 底部导航 -->
+    <string-array name="bottom_bar_labels">
+        <item>@string/home</item>
+        <item>@string/category</item>
+        <item>@string/setting</item>
+    </string-array>
+
+</resources>

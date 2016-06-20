@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/seat_item.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/seat_item.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/fragment_setting.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/activity_lib_seat.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/activity_lib_seat.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/activity_state.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/activity_state.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/seat_subitem.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/seat_subitem.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/activity_info.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/activity_info.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/lib_subitem.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/lib_subitem.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/tab_item.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/tab_item.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/activity_feedback.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/title_bar.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/title_bar.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/fragment_category.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/fragment_category.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/home_title_bar.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/home_title_bar.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/home_lib_total.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/home_lib_total.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/layout/lib_item.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/layout/lib_item.xml"
+    }
+]

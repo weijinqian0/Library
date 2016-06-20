@@ -1,0 +1,84 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical"
+    android:gravity="center">
+   
+    <include layout="@layout/title_bar" />
+	<ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/userimg" 
+           android:layout_marginTop="70dip"/>
+   
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:paddingLeft="30dip"
+       android:paddingRight="30dip"
+       android:background="@color/app_bg"
+       android:orientation="vertical"
+       android:gravity="center">
+
+       <AutoCompleteTextView
+           android:id="@+id/username"
+           style="@style/register_tv"
+           android:ems="10"
+           android:hint="@string/username_hint" >
+
+           <requestFocus />
+       </AutoCompleteTextView>
+
+	   <EditText
+	       android:id="@+id/password"
+	       android:hint="@string/password_hint"
+	       style="@style/register_tv"
+	       android:layout_marginTop="20dip"
+	       android:password="true"/>
+	   <RelativeLayout 
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="vertical">
+           
+		   <CheckBox
+	           android:id="@+id/savePassword"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="@string/save_pw" 
+	           android:textSize="12dp">
+	       </CheckBox>
+	       
+		   <RelativeLayout
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:layout_below="@id/savePassword"
+		       android:gravity="center">
+		       
+			   <Button
+			       android:id="@+id/login_btn"
+			       android:layout_width="130dip"
+			       android:layout_height="45dip"
+			       android:layout_marginTop="5dip"
+			       android:text="@string/login"
+			       android:gravity="center"
+			       android:background="@drawable/bg_border"
+			      />
+		
+			   <Button
+			       android:id="@+id/register_btn"
+			       android:layout_width="130dip"
+			       android:layout_height="45dip"
+			       android:layout_marginTop="5dip"
+			       android:layout_toRightOf="@+id/login_btn"
+			       android:layout_marginLeft="8dp"
+			     
+			       android:background="@drawable/bg_border"
+			       android:gravity="center"
+			       android:text="@string/register" />
+		   </RelativeLayout>
+	
+	   </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout	xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    
+    <include
+        android:id="@+id/category_title" 
+        layout="@layout/title_bar"/>
+	
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/category_title"
+        android:background="@drawable/bg_gradient"
+        android:orientation="vertical">
+	    <com.lib.view.Search
+	        android:id="@+id/search_view"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" 
+	        >
+	    </com.lib.view.Search>
+	</LinearLayout>
+	<View
+	    android:id="@+id/view_mask"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/category_title"
+        android:background="#55000000"
+        android:orientation="vertical"
+        android:visibility="gone" 
+	    >
+	    
+	</View>
+	
+	<com.lib.view.SeatSlider
+	    android:id="@+id/mSeatSlider"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    >
+	    
+	</com.lib.view.SeatSlider>
+	
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+ 	
+    <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_bg"
+                android:layout_marginTop="10dip"
+                android:orientation="vertical">
+                
+                <!-- 占座中的学霸状态 -->
+                <RelativeLayout 
+                    android:id="@+id/state_study"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                    
+                    <TextView 
+                        style="@style/setting_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/state_study" />
+                    
+                    <ImageView
+                        style="@style/forward_arrow"/>
+ 				</RelativeLayout>
+                
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/app_bg" />
+                
+                <!-- 离开一会儿 -->
+                <RelativeLayout 
+                    android:id="@+id/state_break"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                    
+                    <TextView 
+                        android:id="@+id/leave"
+                        style="@style/setting_text_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/state_break" />
+                    
+                    <ImageView
+                        style="@style/forward_arrow"/>
+ 				</RelativeLayout>
+                
+            </LinearLayout>
+
+</LinearLayout>

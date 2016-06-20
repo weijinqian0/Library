@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/drawable/bg_gradient.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/drawable/bg_home.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/drawable/bg_home.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/drawable/slash_bg.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/drawable/slash_bg.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/drawable/bg_border.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/drawable/bg_border.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/drawable/bg_setting.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/drawable/bg_setting.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/drawable/txt_border.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/drawable/txt_border.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/drawable/bg_collect.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/drawable/bg_collect.xml"
+    }
+]

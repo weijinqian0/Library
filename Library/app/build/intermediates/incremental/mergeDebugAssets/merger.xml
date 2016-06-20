@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.3"><source path="/Users/weijinqian/Documents/android/Library/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/assets"/></dataSet><dataSet config="main"><source path="/Users/weijinqian/Documents/android/Library/app/src/main/assets"/><source path="/Users/weijinqian/Documents/android/Library/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/weijinqian/Documents/android/Library/app/src/debug/assets"/></dataSet></merger>

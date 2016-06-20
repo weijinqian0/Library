@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip" >
+
+    <TextView
+        android:id="@+id/home_lib_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15.0dip"
+        android:singleLine="true"
+        android:text="总馆"
+        android:textColor="@android:color/white"
+        android:textSize="40.0sp" />
+
+    
+    <!--  <TextView
+        android:id="@+id/home_total_seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/home_lib_name"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="15.0dip"
+        android:singleLine="true"
+        android:text="总座位数:"
+        android:textColor="@android:color/white"
+        android:textSize="20.0sp" />
+
+    <TextView
+        android:id="@+id/home_remain_seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/home_total_seat"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="15.0dip"
+        android:singleLine="true"
+        android:text="剩余座位:"
+        android:textColor="@android:color/white"
+        android:textSize="20.0sp" />
+    
+     <TextView
+        android:id="@+id/home_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/home_remain_seat"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="15.0dip"
+        android:singleLine="true"
+        android:text="空座率:"
+        android:textColor="@android:color/white"
+        android:textSize="20.0sp" />-->
+</RelativeLayout>

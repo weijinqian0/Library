@@ -1,0 +1,62 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    >
+    
+    <include layout="@layout/title_bar"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dip"
+        android:src="@drawable/userimg" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="姓名"
+            android:textSize="30sp"
+            android:textColor="@color/black" />
+        <View
+	            android:layout_width="150dip"
+	            android:layout_height="4.0dip"
+	            android:background="@drawable/slash_bg" />
+        <TextView
+            android:id="@+id/student_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="学号"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+        <View
+	            android:layout_width="150dip"
+	            android:layout_height="4.0dip"
+	            android:background="@drawable/slash_bg" />
+        <Button
+                android:id="@+id/exit_btn"
+                android:layout_width="130dip"
+                android:layout_height="45dip"
+                android:layout_marginTop="60dip"
+                android:background="@drawable/bg_border"
+                android:gravity="center"
+                android:text="@string/exit" />
+    </LinearLayout>
+
+</LinearLayout>

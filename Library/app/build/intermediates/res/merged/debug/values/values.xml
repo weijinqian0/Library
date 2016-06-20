@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bottom_bar_labels">
+        <item>@string/home</item>
+        <item>@string/category</item>
+        <item>@string/setting</item>
+    </string-array>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="app_bg">#eeeeee</color>
+    <color name="background_color">#fbfbfb</color>
+    <color name="black">#ff646464</color>
+    <color name="dark">#E0E0E0</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFF</color>
+    <color name="default_circle_indicator_page_color">#E93333</color>
+    <color name="default_circle_indicator_stroke_color">#FF0000</color>
+    <color name="fuxk_base_divide_line_color">#dcdcdc</color>
+    <color name="fuxk_settle_black_mark">#1A000000</color>
+    <color name="littlegreen">#75e067</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="rose">#ffe4e1</color>
+    <color name="tab_item_default">#fafafa</color>
+    <color name="tab_item_selected">#f0f1f2</color>
+    <color name="tab_text_default">#bbbbbb</color>
+    <color name="tab_text_selected">#f8597c</color>
+    <color name="title_text_color">#ffffff</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="CirclePageIndicator"><attr format="boolean" name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr format="dimension" name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="TabWidget"><attr format="reference" name="bottom_labels"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_circle_indicator_radius">2.5dip</dimen>
+    <dimen name="default_circle_indicator_stroke_width">0.5dip</dimen>
+    <dimen name="image_gridview_gap">2dp</dimen>
+    <dimen name="image_gridview_height">50dp</dimen>
+    <dimen name="image_gridview_width">50dp</dimen>
+    <dimen name="seat_init_height">20dip</dimen>
+    <dimen name="seat_init_width">20dip</dimen>
+    <dimen name="seat_max_height">60dip</dimen>
+    <dimen name="seat_max_width">60dip</dimen>
+    <dimen name="seat_min_height">15dip</dimen>
+    <dimen name="seat_min_width">15dip</dimen>
+    <dimen name="ss_between_offset">5.0dip</dimen>
+    <dimen name="ss_seat_check_size">30.0dip</dimen>
+    <dimen name="ss_seat_thum_size_h">90.0dip</dimen>
+    <dimen name="ss_seat_thum_size_w">120.0dip</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <string name="about">关于我们</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Library</string>
+    <string name="card_num_hint">一卡通号</string>
+    <string name="category">占座</string>
+    <string name="choose_seat">一键选座</string>
+    <string name="content_edit_hint">欢迎在这儿发表宝贵的意见哦</string>
+    <string name="exit">注销登录</string>
+    <string name="feedback">意见反馈</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home">首页</string>
+    <string name="info">个人主页</string>
+    <string name="login">登录</string>
+    <string name="mobile_number">手机号</string>
+    <string name="mobile_number_hint">方便我们尽快反馈。非必填</string>
+    <string name="password_hint">  密码： 请输入密码</string>
+    <string name="re_password_hint">确认密码</string>
+    <string name="register">注册</string>
+    <string name="register_name_hint">用户名</string>
+    <string name="register_password_hint">密码</string>
+    <string name="save_pw">记住密码</string>
+    <string name="seat_preview">座位预览</string>
+    <string name="setting">设置</string>
+    <string name="state">我的座位</string>
+    <string name="state_break">离开一会儿</string>
+    <string name="state_study">图书馆学霸</string>
+    <string name="submit">提交</string>
+    <string name="username_hint">  账号： 请输入用户名</string>
+    <string name="xuehao_hint">学号</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="MyTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->        
+    </style>
+    <style name="forward_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">15dip</item>
+        <item name="android:src">@drawable/setting_arrow</item>
+    </style>
+    <style name="register_tv">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/txt_border</item>
+        <item name="android:maxLength">30</item>
+        <item name="android:textColorHighlight">#7e4d84</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style>
+    <style name="setting_text_style">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingTop">12dip</item>
+        <item name="android:paddingBottom">12dip</item>
+    </style>
+    <style name="small_divider">
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/small_divider</item>
+    </style>
+    <style name="title_bar_style">
+        <item name="android:background">@drawable/title_bg</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="title_text_style">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@color/title_text_color</item>
+    </style>
+</resources>

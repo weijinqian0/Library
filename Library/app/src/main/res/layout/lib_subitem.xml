@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="2.0dip"
+    android:paddingRight="2.0dip"
+    android:paddingTop="5.0dip" 
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/lib_name"
+        android:text="馆名"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+
+    <ImageView
+        
+        android:id="@+id/lib_img"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_below="@id/lib_name"
+        android:layout_centerHorizontal="true"
+        android:padding="5.0dip" />
+
+   <RelativeLayout
+       android:id="@+id/relativeLayout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/lib_img"
+       android:layout_marginLeft="15dip"
+       android:layout_below="@+id/lib_img"
+        >
+
+       <ImageView
+           android:id="@+id/chair"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/chair" />
+
+       <TextView
+           android:id="@+id/seat_usable"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dip"
+           android:layout_toRightOf="@id/chair"
+           android:ellipsize="marquee"
+           android:focusable="true"
+           android:focusableInTouchMode="true"
+           android:gravity="center"
+           android:marqueeRepeatLimit="3"
+           android:scrollHorizontally="true"
+           android:singleLine="true"
+           android:text="剩余座位"
+           android:textColor="@color/white"
+           android:textSize="15sp" />
+  
+   
+       <ImageView
+           android:id="@+id/percent"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/chair"
+           android:src="@drawable/percent" />
+
+       <TextView
+           android:id="@+id/seat_percent"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/seat_usable"
+           android:layout_alignTop="@+id/percent"
+           android:ellipsize="marquee"
+           android:singleLine="true"
+           android:text="上座率"
+           android:textColor="@android:color/white"
+           android:textSize="15sp" />
+
+     </RelativeLayout>
+
+</RelativeLayout>
+
+

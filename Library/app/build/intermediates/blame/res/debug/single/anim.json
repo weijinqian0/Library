@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/anim/left_in.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/anim/left_in.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/anim/right_out.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/anim/right_out.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/anim/bottom_in.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/anim/bottom_in.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/anim/shake.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/anim/shake.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/anim/cycle_4.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/anim/cycle_4.xml"
+    },
+    {
+        "merged": "/Users/weijinqian/Documents/android/Library/app/build/intermediates/res/merged/debug/anim/bottom_out.xml",
+        "source": "/Users/weijinqian/Documents/android/Library/app/src/main/res/anim/bottom_out.xml"
+    }
+]

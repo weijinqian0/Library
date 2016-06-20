@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="black">#ff646464</color>
+    <color name="app_bg">#eeeeee</color>
+    <color name="white">#ffffffff</color>
+    <color name="tab_item_default">#fafafa</color>
+    <color name="tab_item_selected">#f0f1f2</color>
+    <color name="tab_text_selected">#f8597c</color>
+    <color name="tab_text_default">#bbbbbb</color>
+    <color name="background_color">#fbfbfb</color>
+    <color name="title_text_color">#ffffff</color>
+    <color name="dark">#E0E0E0</color>
+    <color name="rose">#ffe4e1</color><!--浅玫瑰色 --> 
+    <color name="pink">#ffc0cb</color><!--粉红色 --> 
+	<color name="littlegreen">#75e067</color><!--非常喜欢的绿色 --> 
+    
+    <!-- 透明色 -->
+    <color name="fuxk_settle_black_mark">#1A000000</color>
+    
+    <!-- 分割线 -->
+    <color name="fuxk_base_divide_line_color">#dcdcdc</color>
+
+    
+
+</resources>

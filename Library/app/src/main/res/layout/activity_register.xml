@@ -1,0 +1,74 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/app_bg"
+    android:gravity="center">
+    
+    <include layout="@layout/title_bar"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="155dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="50dip"
+        android:src="@drawable/userimg" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="30dip"
+        android:paddingRight="30dip"
+        android:gravity="center"
+        >
+        
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical" >
+
+		   <EditText
+	           android:id="@+id/username"
+	           style="@style/register_tv"
+	           android:hint="@string/register_name_hint"/>
+ 		
+	      
+	       <EditText
+		       android:id="@+id/xuehao"
+		       style="@style/register_tv"
+		       android:hint="@string/xuehao_hint"
+		       android:inputType="number"  
+		       />
+	       <EditText
+		       android:id="@+id/card_num"
+		       style="@style/register_tv"
+		       android:hint="@string/card_num_hint"
+		       android:inputType="number"
+		       />
+	        <EditText
+		       android:id="@+id/register_pw"
+		       style="@style/register_tv"
+ 			   android:hint="@string/register_password_hint"
+		       android:inputType="textPassword"/>
+	        <EditText
+		       android:id="@+id/re_pw"
+		       style="@style/register_tv"
+		       android:hint="@string/re_password_hint"
+		       android:inputType="textPassword"/>
+		       
+        </LinearLayout>
+ 			
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_width="150dip"
+                android:layout_height="45dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/bg_border"
+                android:gravity="center"
+                android:text="@string/register" />
+
+ 	</LinearLayout> 
+ </LinearLayout>

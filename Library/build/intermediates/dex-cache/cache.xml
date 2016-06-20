@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/weijinqian/Documents/android/Library/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f988922718a8af58011eb81f38e990369e9f57a9">
+        <dex dex="/Users/weijinqian/Documents/android/Library/app/build/intermediates/pre-dexed/debug/instant-run_a0092bd42a1379b109327fe91556adb3578f8d8f.jar" />
+    </item>
+    <item
+        jar="/Users/weijinqian/Documents/android/Library/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/weijinqian/Documents/android/Library/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_b12ad6b1ff0d36a0d5c3a9d6b4138ce93906ec39.jar" />
+    </item>
+    <item
+        jar="/Users/weijinqian/Documents/android/Library/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b077021f80af3f807b77f5f29353f1cc563ce4e0">
+        <dex dex="/Users/weijinqian/Documents/android/Library/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_de54abe4694dd7f57bd634b94f0054a8e629bbaf.jar" />
+    </item>
+    <item
+        jar="/Users/weijinqian/Documents/android/Library/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/weijinqian/Documents/android/Library/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_938a289482c10ba858af4f8e7568be5452df8b75.jar" />
+    </item>
+    <item
+        jar="/Users/weijinqian/Documents/Development/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/weijinqian/Documents/android/Library/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_3ea29a018e67eda49b84dd8ab5d99ba56af24ac5.jar" />
+    </item>
+
+</items>
